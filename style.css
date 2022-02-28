@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@500&display=swap');
+* {
+    transition: 0.5s;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    font-size: larger;
+}
+
+
+/* HEADER */
+
+#tags {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+#foto-perfil {
+    border-radius: 100px;
+    width: 200px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 20px #007399;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h2 {
+    margin: 5px auto;
+}
+
+header p {
+    margin: 0 10px;
+    margin-right: 40px;
+    margin-top: 4px;
+}
+
+header tr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #007399;
+    margin: 5px auto;
+}
+
+.contact {
+    text-align: center;
+    font-size: larger;
+}
+
+.mail-number {
+    display: flex;
+    flex-direction: row;
+}
+
+.mail-number img {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.nationality p {
+    margin: 20px auto;
+    text-align: center;
+}
+
+a button {
+    background-color: #0099CC;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+    padding: 17px;
+    box-shadow: 5px 5px 10px rgba(0, 59, 77, 0.9);
+    margin-bottom: 30px;
+}
+
+a button:hover {
+    background-color: #007399;
+    box-shadow: 0px 0px 15px rgba(0, 59, 77, 0.6);
+}
+
+
+/* MAIN */
+
+
+/* #about-me {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.width-section1 {
+    max-width: 30%;
+}
+
+.width-section2 {
+    max-width: 60%;
+} */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto 20px;
+    margin-bottom: 50px;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 15px;
+    margin: 15px;
+    color: black;
+}
+
+.item p {
+    display: flex;
+    align-items: center;
+}
+
+.item:hover {
+    background-color: rgb(211, 211, 211);
+}
+
+main p,
+main ul {
+    margin: 0 50px;
+}
+
+.puesto,
+.lugar {
+    margin: 10px 50px;
+}
+
+main h2 {
+    font-size: 25px;
+}
+
+div>ul,
+section>ul {
+    list-style-type: " · ";
+}
+
+ul ul {
+    list-style-type: " - ";
+}
+
+li {
+    margin-top: 10px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.description {
+    font-size: larger;
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+
+.icon {
+    height: 40px;
+}
+
+.subtitle {
+    background-color: #0099CC;
+    color: white;
+    padding: 30px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
